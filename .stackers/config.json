@@ -1,0 +1,12 @@
+{
+  "node_version": "12.13.1",
+  "pre_install": "echo \"Lets get started\"",
+  "post_install": "echo \"done installing\"",
+  "build": "npm run build",
+  "output_dir": "build/",
+  "branches": {
+    "prod_env": "master:tag",
+    "stage_env": "master",
+    "dev_env": "develop"
+  }
+}
